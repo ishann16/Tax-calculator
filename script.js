@@ -6,7 +6,7 @@ function calculateTax() {
   
   let taxableIncome = income + extraIncome - deductions - 800000;
   let tax = 0;
-  let incomeAfterTax = 0;
+  let incomeAfterTax = income + extraIncome - deductions;
 
   if (taxableIncome <= 0) {
     tax = 0;
