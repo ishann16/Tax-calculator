@@ -1,2 +1,2 @@
 # Tax-calculator
-tax calculatin app
+tax calculation app
